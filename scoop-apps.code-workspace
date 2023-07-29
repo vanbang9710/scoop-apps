@@ -1,20 +1,20 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		// {
-		// 	"path": "../../Users/vanba/scoop"
-		// },
-		{
-			"path": "../../ObsidianVaults/ObsidianVault/02_Areas/Config"
-		},
-	],
-	"settings": {
-		"powershell.cwd": "E:/GitApps/scoop-apps",
-		"terminal.integrated.cwd": "E:/GitApps/scoop-apps",
-		"git.ignoredRepositories": [
-			"E:\\ObsidianVaults",
-		]
-	}
+    "folders": [
+        {
+            "path": "."
+        },
+        // {
+        // 	"path": "../../Users/vanba/scoop"
+        // },
+        {
+            "path": "../../ObsidianVaults/ObsidianVault/02_Areas/Config"
+        },
+    ],
+    "settings": {
+        "powershell.cwd": "E:/GitApps/scoop-apps",
+        "terminal.integrated.cwd": "E:/GitApps/scoop-apps",
+        "git.ignoredRepositories": [
+            "E:\\ObsidianVaults",
+        ]
+    }
 }
