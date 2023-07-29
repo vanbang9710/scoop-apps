@@ -31,8 +31,19 @@
     },
     "extract_dir": "Capture2Text",
     "post_install": "Move-Item \"$dir\\*.traineddata\" \"$dir\\tessdata\"",
-    "bin": [["Capture2Text_CLI.exe", "Capture2Text"]],
-    "shortcuts": [["Capture2Text.exe", "Capture2Text", "--portable"]],
+    "bin": [
+        [
+            "Capture2Text_CLI.exe",
+            "Capture2Text"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Capture2Text.exe",
+            "Capture2Text",
+            "--portable"
+        ]
+    ],
     "persist": "Capture2Text",
     "checkver": {
         "url": "https://sourceforge.net/projects/capture2text/rss?path=/Capture2Text",
@@ -49,4 +60,3 @@
         }
     }
 }
-

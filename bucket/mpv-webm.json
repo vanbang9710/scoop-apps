@@ -1,0 +1,24 @@
+{
+     "version": "1688244153",
+    "description": "Simple WebM maker for mpv, with no external dependencies.",
+    "homepage": "https://github.com/ekisu/mpv-webm",
+    "license": "GPL-3.0-only",
+    "url": [
+        "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua",
+        "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.conf"
+    ],
+    "hash": [
+        "c92716ffd17bbdb435564476d613c088965ac5697402d6157b7fe6cba5a53310",
+        "8a2d2165d653a5e1fcf0e0849971a31947228aa1c25ee7d3cda263c5e387365a"
+    ],
+    "checkver": {
+        "script": "try { Get-Date (Invoke-RestMethod https://api.github.com/repositories/98124368/commits/latest).commit.committer.date -UFormat %s } catch { '' }",
+        "regex": "\\A(\\d+)\\Z"
+    },
+    "autoupdate": {
+        "url": [
+            "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua",
+            "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.conf"
+        ]
+    }
+}
