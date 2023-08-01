@@ -1,8 +1,9 @@
 {
+    "##": "Based on https://github.com/lzwme/scoop-proxy-cn/blob/main/bucket/uosc-main.json",
     "version": "1688244153",
     "description": "Simple WebM maker for mpv, with no external dependencies.",
     "homepage": "https://github.com/ekisu/mpv-webm",
-    "license": "GPL-3.0-only",
+    "license": "MIT",
     "url": [
         "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua",
         "https://ghproxy.net/https://github.com/ekisu/mpv-webm/releases/download/latest/webm.conf"

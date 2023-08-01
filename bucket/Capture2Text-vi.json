@@ -1,6 +1,7 @@
 {
+    "##": "Based on https://github.com/lzwme/scoop-proxy-cn/blob/main/bucket/Capture2TextZhCn.json",
     "homepage": "http://capture2text.sourceforge.net/",
-    "description": "OCR capture utility. Source manifest https://github.com/lzwme/scoop-proxy-cn/blob/main/bucket/Capture2TextZhCn.json",
+    "description": "OCR capture utility.",
     "version": "4.6.3",
     "license": "GPL-3.0-or-later",
     "architecture": {
