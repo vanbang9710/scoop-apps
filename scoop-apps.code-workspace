@@ -18,5 +18,8 @@
         "powershell.codeFormatting.alignPropertyValuePairs": true,
         "powershell.codeFormatting.ignoreOneLineBlock": true,
         "files.insertFinalNewline": true,
+        "files.associations": {
+            "*.json": "jsonc"
+          },
     }
 }
