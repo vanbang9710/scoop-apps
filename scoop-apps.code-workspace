@@ -6,15 +6,17 @@
         // {
         // 	"path": "../../Users/vanba/scoop"
         // },
-        {
-            "path": "../../ObsidianVaults/ObsidianVault/02_Areas/Config"
-        },
+        // {
+        //     "path": "../../ObsidianVaults/ObsidianVault/02_Areas/Config"
+        // },
     ],
     "settings": {
         "powershell.cwd": "E:/GitApps/scoop-apps",
         "terminal.integrated.cwd": "E:/GitApps/scoop-apps",
-        "git.ignoredRepositories": [
-            "E:\\ObsidianVaults",
-        ]
+        "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+        "powershell.codeFormatting.preset": "OTBS",
+        "powershell.codeFormatting.alignPropertyValuePairs": true,
+        "powershell.codeFormatting.ignoreOneLineBlock": true,
+        "files.insertFinalNewline": true,
     }
 }

@@ -12,7 +12,12 @@
     },
     "extract_dir": "handyoutliner_1.1.6.4",
     "bin": "HandyOutliner.exe",
-    "shortcuts": [["HandyOutliner.exe", "HandyOutliner"]],
+    "shortcuts": [
+        [
+            "HandyOutliner.exe",
+            "HandyOutliner"
+        ]
+    ],
     "checkver": {
         "url": "https://handyoutlinerfo.sourceforge.net/",
         "regex": "Current version ([\\d].[\\d].[\\d].[\\d]+)"
